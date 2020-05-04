@@ -32,7 +32,7 @@ Hackerbay Interview Backend Task
 
 Method | Endpoint | Functionality
 --- | --- | ---
-POST | `/logiin` | Generate a session token to access protected routes
+POST | `/login` | Generate a session token to access protected routes
 GET | `/thumbnail` | Image Thumbnail Generation. Protected route.
 PATCH | `/patch` | JSON patching. Protected route.
 
