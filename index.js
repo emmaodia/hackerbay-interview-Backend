@@ -9,10 +9,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.get('/', (res) => res.json({
   status: 'success',
   msg: 'Welcome, Nerd!',
-  about: 'A Mock League API that serves Football Fixtures Score.  that serves the latest scores of fixtures of matches in a Mock Premier League',
+  about: 'HackerBay Backend Developer Test.',
   documentation: 'Kindly view documentation below',
-  url: 'https://documenter.getpostman.com/view/4783155/Szf54VPL?version=latest',
-  stack: 'NodeJS - JavaScript, MongoDB, Jest, Redis, Docker',
+  url: 'https://app.swaggerhub.com/apis-docs/emmaodia/hackerbay-interview-backend/1.0.0',
+  stack: 'NodeJS - JavaScript, Mocha, Chai, Redis, Docker',
 }));
 
 const appRoute = require('./app/routes/main');
