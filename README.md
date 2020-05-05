@@ -54,7 +54,7 @@ PATCH | `/patch` | JSON patching. Protected route.
     }   
 ```
 ## Docker
-> **[Check it out](https://hub.docker.com/repository/docker/emmaodia/hackerbay-interview-backend/)**
+> **[View Docker Image](https://hub.docker.com/repository/docker/emmaodia/hackerbay-interview-backend/)**
 
 ## Swagger Docs
 > **[View this Documentation on Swagger](https://app.swaggerhub.com/apis-docs/emmaodia/hackerbay-interview-backend/1.0.0/)**
