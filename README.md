@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/emmaodia/hackerbay-interview-Backend.svg?branch=master)](https://travis-ci.org/emmaodia/hackerbay-interview-Backend)
-
-[![Coverage Status](https://coveralls.io/repos/github/emmaodia/hackerbay-interview-Backend/badge.svg?branch=master)](https://coveralls.io/github/emmaodia/hackerbay-interview-Backend?branch=master)
+[![Build Status](https://travis-ci.org/emmaodia/hackerbay-interview-Backend.svg?branch=master)](https://travis-ci.org/emmaodia/hackerbay-interview-Backend) [![Coverage Status](https://coveralls.io/repos/github/emmaodia/hackerbay-interview-Backend/badge.svg?branch=master)](https://coveralls.io/github/emmaodia/hackerbay-interview-Backend?branch=master)
 
 ## Project Overview
 Hackerbay Interview Backend Task
