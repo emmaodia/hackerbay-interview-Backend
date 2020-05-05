@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.get('/', (res) => res.status(200).json({
+app.get('/', (req, res) => res.status(200).json({
   status: 'success',
   msg: 'Welcome, Nerd!',
   about: 'HackerBay Backend Developer Test.',
