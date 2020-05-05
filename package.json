@@ -6,8 +6,11 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "mocha --exit || true",
+    "test": "nyc mocha --exit || true",
     "lint": "npx eslint . || exit 0"
+  },
+  "nyc": {
+    "exclude": "./README.md"
   },
   "author": "Emmanuel Oaikhenan",
   "license": "Apache-2.0",
@@ -28,7 +31,8 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "mocha": "^7.1.2"
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1"
   },
   "repository": {
     "type": "git",
