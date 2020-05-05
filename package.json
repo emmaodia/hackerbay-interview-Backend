@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "nyc mocha",
-     "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc --reporter=html --reporter=text mocha test/*.js --exit || true",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "lint": "npx eslint . || exit 0"
   },
   "nyc": {
