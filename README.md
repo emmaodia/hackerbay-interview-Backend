@@ -4,7 +4,7 @@
 Hackerbay Interview Backend Task
 
 ## Heroku deployment
-> **[Check it out](https://houserentportal-api.herokuapp.com/)**
+> **[Check it out](https://hackerbay-interview-backend.herokuapp.com/)**
 
 ## Installation
 
@@ -53,9 +53,11 @@ PATCH | `/patch` | JSON patching. Protected route.
         "patch": "[ { op: 'replace', path: '/a', value: 18, }, { op: 'add', path: '/b', value: [ 0, 2, 3, ], }, ]"
     }   
 ```
+## Docker
+> **[Check it out](https://hub.docker.com/repository/docker/emmaodia/hackerbay-interview-backend/)**
 
 ## Credits
-I'm grateful to Google <br/> Stack Overflow <br/> MDN <br/> NPM Package registry
+I'm grateful to: <br/> Google <br/> Stack Overflow <br/> MDN <br/> NPM Package registry
 
 ## Author
 Emmanuel Oaikhenan
