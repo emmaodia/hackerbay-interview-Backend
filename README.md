@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/emmaodia/coope-api.svg?branch=master)](https://travis-ci.com/emmaodia/houserentportal-api)
+[![Build Status](https://travis-ci.org/emmaodia/hackerbay-interview-Backend.svg?branch=master)](https://travis-ci.org/emmaodia/hackerbay-interview-Backend)
 
 ## Project Overview
 Hackerbay Interview Backend Task
